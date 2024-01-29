@@ -123,8 +123,9 @@ class MyApp extends StatelessWidget {
                     child: Container(
                       width: 100.0,
                       color: Colors.red,
-                      child: const Center(
-                        child: Text(
+                      child: const Align(
+                        alignment: Alignment.topLeft,
+                        child:Text(
                           'Con 6',
                           style: TextStyle(fontSize: 30),
                         )
