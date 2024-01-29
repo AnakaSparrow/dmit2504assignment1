@@ -30,9 +30,9 @@ class MyApp extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             //TODO: Put your code here to complete this app.
-              Column(//col1
+              Column(// COLUMN ONE
                 children: <Widget>[
-                  Container(//con1
+                  Container(// CONTAINER ONE
                     height: 100.0,
                     width: 100.0,
                     decoration: BoxDecoration(
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
                   ),
                   Transform.rotate(
                     angle: 3.14 / 4,
-                    child: Container(
+                    child: Container(// CONTAINER TWO
                       height: 100.0,
                       width: 100.0,
                       color: Colors.white,
@@ -63,12 +63,12 @@ class MyApp extends StatelessWidget {
                   )
                 ]
               ),
-              Column(//col2
+              Column(// COLUMN TWO
                 children: <Widget> [
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
-                      child: Container(//con3
+                      child: Container(// CONTAINER THREE
                         width: 100.0,
                         color: Colors.yellow,
                         child: const Align(
@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
-                      child: Container(//con4
+                      child: Container(// CONTAINER FOUR
                         width: 100.0,
                         color: Colors.blue,
                         child: const Align(
@@ -97,11 +97,10 @@ class MyApp extends StatelessWidget {
                   )
                 ]
               ),
-              Column(
-                mainAxisSize: MainAxisSize.max,
+              Column( // COLUMN THREE
                 children: <Widget>[
                   Expanded(
-                      child: Container(
+                      child: Container(//CONTAINER 5
                         height: 100.0,
                         width: 100.0,
                         decoration: BoxDecoration(
@@ -120,7 +119,7 @@ class MyApp extends StatelessWidget {
                       ),
                   ),
                   Expanded(
-                    child: Container(
+                    child: Container( //CONTAINER SIX 
                       width: 100.0,
                       color: Colors.red,
                       child: const Align(
